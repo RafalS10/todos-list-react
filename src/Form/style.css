@@ -13,7 +13,7 @@
     color: white;
     padding: 8px;
     border: none;
-    color: white,
+    transition: 0,5s;
 }
 
 @media (max-width: 768px) {
@@ -23,8 +23,7 @@
 }
 
 .form__button:hover {
-    background-color:rgb(22, 139, 139);
-    transition: 0.5s;
+    background-color: rgb(22, 139, 139);
     transform: scale(1.1);
 }
 

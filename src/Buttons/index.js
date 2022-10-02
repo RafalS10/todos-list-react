@@ -1,12 +1,12 @@
 import React from "react";
 import "./style.css";
 
-const Buttons = ({ tasks, hideDoneTasks }) => (
+const Buttons = ({ tasks, hideDone }) => (
     <div className="list__actionButtons">
-        {tasks.lenght > 0 && (
+         {tasks.length > 0 && (
             <>
             <button className="list__actionButton">
-            {hideDoneTasks ? "Pokaż" : "Ukryj"} ukończone 
+            {hideDone ? "Pokaż" : "Ukryj"} ukończone 
             </button>
             <button 
             className= "list__actionButton"
